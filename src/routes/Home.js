@@ -55,6 +55,7 @@ function Home() {
               id={item.id}
               coverImg={item.medium_cover_image}
               title={item.title}
+              year={item.year}
               summary={item.summary}
               genres={item.genres}
             />
